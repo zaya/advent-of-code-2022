@@ -17,5 +17,5 @@ jobs:
           distribution: 'corretto'
           java-version: 17
           cache: gradle
-      - uses: extractions/setup-just@v1
+      - uses: extractions/setup-just@v2
       - run: just verify
