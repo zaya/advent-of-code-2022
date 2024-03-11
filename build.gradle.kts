@@ -11,7 +11,7 @@ repositories {
 dependencies {
     testImplementation(kotlin("test"))
     testImplementation("io.kotest:kotest-runner-junit5:5.5.4")
-    testImplementation("io.kotest:kotest-assertions-core:5.5.4")
+    testImplementation("io.kotest:kotest-assertions-core:5.8.1")
     testImplementation("org.amshove.kluent:kluent:1.72")
 }
 
